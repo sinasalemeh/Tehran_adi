@@ -24,10 +24,6 @@ img {
     clear: both;
     display: table;
 }
-.p:focus {
-    color: #fff;
-    backgrand-color: #000;
-}
 .btn {
     margin-right: 5px;
 }
