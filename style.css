@@ -24,6 +24,9 @@ img {
     clear: both;
     display: table;
 }
+.btn {
+    margin-right: 5px;
+}
 @media screen and (max-width: 500px) {
     .column {
       width: 105%;
