@@ -46,9 +46,20 @@ img {
 .btn {
     margin-right: 5px;
 }
+iframe {
+    width: 400px;
+    height: 200px;
+    min-width: 98%;
+    border-radius: 10px;
+    margin-right: 15px;
+}
 @media screen and (max-width: 500px) {
     .column {
       width: 105%;
       padding: 5px;
+    }
+    iframe {
+        width: 80px;
+        min-width: 92%;
     }
 }
