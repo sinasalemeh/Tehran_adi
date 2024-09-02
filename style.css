@@ -12,11 +12,9 @@
 /* قسمت متحرک */
 ::-webkit-scrollbar-thumb {
     background: #5e5e5e;
-    border-radius: 4px;
 }
 ::-webkit-scrollbar-thumb:hover {
     background: #3d32db;
-    border-radius: 4px;
 }
 .text2 {
     color: #000;
@@ -56,6 +54,7 @@ iframe {
 li:hover {
     background-color: #3d32db;
     border-radius: 20px;
+    color: #ffffff;
 }
 @media screen and (max-width: 500px) {
     .column {
@@ -67,3 +66,24 @@ li:hover {
         min-width: 92%;
     }
 }
+
+@media screen and (min-width: 1200px) {
+    .column {
+      width: 25%;
+      padding: 5px;
+    }
+    iframe {
+        width: 160px;
+        min-width: 97%;
+    }
+}
+
+@media screen and (min-width: 1020px) {
+    .column {
+      width: 25%;
+      padding: 5px;
+    }
+    iframe {
+        width: 80px;
+        min-width: 97%;
+    }
