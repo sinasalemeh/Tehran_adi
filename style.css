@@ -14,7 +14,7 @@
     background: #5e5e5e;
 }
 ::-webkit-scrollbar-thumb:hover {
-    background: #00ffbf;
+    background: #0837f9;
 }
 
 .text2 {
@@ -60,13 +60,13 @@ iframe {
 }
 
 li:hover {
-    background-color: #00ffbf;
+    background-color: #0837f9;
     border-radius: 20px;
     color: #ffffff;
 }
 
 footer {
-    background: #00ffbf;
+    background: #0837f9;
     color: #000;
 }
 
@@ -102,3 +102,4 @@ footer {
         min-width: 97%;
     }
 }
+
