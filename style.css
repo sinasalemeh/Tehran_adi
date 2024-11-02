@@ -68,6 +68,23 @@ li:hover {
 footer {
     background: #0837f9;
     color: #000;
+    border-top-left-radius: 90px;
+    border-top-right-radius: 90px;
+}
+
+@media screen and (max-width: 800px) {
+    .column {
+        width: 105%;
+        padding: 5px;
+    }
+    iframe {
+        width: 80px;
+        min-width: 92%;
+    }
+    footer {
+        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -102,4 +119,3 @@ footer {
         min-width: 97%;
     }
 }
-
